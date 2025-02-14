@@ -1,0 +1,26 @@
+# 📂 Ignorer les fichiers système et d'IDE
+.DS_Store
+.vscode/
+.idea/
+
+# 📦 Ignorer les fichiers Python & venv
+__pycache__/
+*.pyc
+*.pyo
+venv/
+env/
+
+# 🚫 Ignorer la base de données
+*.sqlite3
+db.sqlite3
+
+# 🚀 Ignorer les fichiers logs et migrations inutiles
+*.log
+*.rdb
+*.out
+
+# 🔑 Ignorer les fichiers d'environnement sensibles
+.env
+.env.local
+.env.development
+.env.production
